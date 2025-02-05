@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* start logo */
+.navbar{
+    height: 100px;
+    background-color: #5816b8;
+    padding: 20px;
+}
+
+.navbar img{
+    width: 100px;
+    margin-bottom: -60px;
+}
+
+.navbar ul{
+    list-style: none;
+    padding-left: 150px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+/* end logo */
+
+/* start header */
+.header{
+    height: 500px;
+    background-image: url(./images/bck.png);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+
+.header1 h1{
+    text-align: center;
+    font-size: 50px;
+    word-spacing: 50px;
+    margin-top: 10px;
+}
+
+.header1 p{
+    background-color: yellow;
+    width: 200px;
+    padding: 10px 20px 30px 40px;
+    opacity: 30%;
+    margin-bottom: 10px;
+}
+
+.div1 p{
+    width: 300px;
+    /* height: 500px; */
+    background-color: #f490c0;
+    padding: 20px 15px 30px 15px;
+    margin-left: 70px;
+}
+
+.div1 .AH{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.div1 .FE{
+    padding-top: 15px;
+    text-decoration: underline;
+    font-family: 'Pacifico';
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.div2{
+    width: 400px;
+    background-color: #b3dbf4;
+    margin: 7px 150px;
+}
+
+.div2 p{
+    text-decoration: overline;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.div2 button{
+    border: 1px solid ;
+    color: #fff;
+    background-color: #0b51c1;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin: 20px 130px;
+}
+
+.list{
+    width: 400px;
+    height: 280px;
+    background-color: #5816b8;
+    margin-left: 230px;
+}
+.list p{
+    padding: 30px 10px 0px;
+    font-weight: bold;
+}
+.do{
+    height: 180px;
+    background-color: aqua;
+    margin: 30px 20px 30px 20px;
+}
+.do .num1{
+    margin-left: 20px;
+}
+.do .car{
+    margin-left: 40px;
+}
+.do .num2{
+    margin: 20px 0px 20px 60px;
+}
+.do .W{
+    width: 95%;
+    margin-bottom: 20px;
+    background-color: #888
+}
+.do .S{
+    width: 95%;
+    background-color: #888;
+}
+.div3{
+    width: 500px;
+    background-color: #ffeb99;
+    margin-left: 350px;
+}
+.div3 .p1{
+    font-weight: bold;
+    padding: 20px 50px 20px 15px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+th,td{
+    border: 2px solid #000;
+    padding: 10px 20px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #5816b8;
+}
+
+tbody tr:nth-child(even){
+    background-color: #00ffff;
+}
+/* end header */
